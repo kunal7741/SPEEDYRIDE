@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    margin: 0 10px;
+}
+
+.navbar .nav-items li a {
+    color: white;
+    font-size: 16px;
+}
+
+.navbar .nav-items li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro Section Styles */
+.intro {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.intro h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.intro button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.intro button:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard Section Styles */
+.dashboard {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.upcoming-rides {
+    list-style: none;
+    padding: 0;
+}
+
+.upcoming-rides li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.upcoming-rides li span {
+    font-size: 16px;
+}
+
+.upcoming-rides .accept-btn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.upcoming-rides .accept-btn:hover {
+    background-color: #218838;
+}
+
+.upcoming-rides .decline-btn {
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.upcoming-rides .decline-btn:hover {
+    background-color: #c82333;
+}
+
+/* Driver Incentives Section */
+.incentives {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.incentives h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.incentives p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.incentive-card {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.incentive-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.incentive-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+}
